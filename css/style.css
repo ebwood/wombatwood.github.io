@@ -15,17 +15,17 @@ body {
 }
 
 .main {
+  margin: auto;
   max-width: 1440px;
   height: 100%;
   display: flex;
-  border-radius: 20px;
   justify-content: center;
 }
 
 .container {
   display: flex;
   border-radius: 20px;
-  max-width: 500px;
+  max-width: 700px;
   margin: auto 10px;
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
 }
@@ -40,7 +40,7 @@ body {
 .content {
   width: 50%;
   border-radius: 0 10px 10px 0;
-  padding: 20px;
+  padding: 25px;
   background-color: hsl(0, 0%, 100%);
   font-family: 'Montserrat';
   color: hsl(228, 12%, 48%);
@@ -73,7 +73,7 @@ body {
 }
 
 .price .old-price {
-  margin: 0 20px;
+  margin: 0 15px;
   font-size: 14px;
 }
 
